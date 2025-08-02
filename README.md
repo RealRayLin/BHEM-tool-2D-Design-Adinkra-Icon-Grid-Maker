@@ -1,6 +1,5 @@
 # BHEM Icon Wall Generator
-*[English](#english) | [Français](#français) | [简体中文](#简体中文)*
-
+https://BHEM.ca
 ---
 
 ## English Intro
