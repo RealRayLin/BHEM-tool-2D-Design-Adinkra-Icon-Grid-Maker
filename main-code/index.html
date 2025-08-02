@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BHEM Icon Wall Generator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #F3ECD5 0%, #E9E2C5 100%);
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+            position: relative;
+        }
+
+        .preview-area {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        .icon-wall {
+            max-width: 100%;
+            max-height: 100%;
+            border: none;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 10px 30px rgba(68, 32, 15, 0.2);
+        }
+
+        .settings-panel {
+            width: 320px;
+            background: rgba(68, 32, 15, 0.95);
+            color: #F3ECD5;
+            padding: 20px;
+            overflow-y: auto;
+            transition: transform 0.3s ease;
+            z-index: 10;
+            position: relative;
+        }
+
+        .settings-panel.collapsed {
+            transform: translateX(280px);
+        }
+
+        .panel-toggle {
+            position: absolute;
+            left: -40px;
+            top: 20px;
+            background: #44200F;
+            color: #F3ECD5;
+            border: none;
+            padding: 10px;
+            border-radius: 8px 0 0 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s ease;
+        }
+
+        .panel-toggle:hover {
+            background: #693018;
+        }
+
+        .setting-group {
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(243, 236, 213, 0.2);
+        }
+
+        .setting-group:last-child {
+            border-bottom: none;
+        }
+
+        .setting-label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #E6AC40;
+        }
+
+        .setting-input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #693018;
+            border-radius: 4px;
+            background: #F3ECD5;
+            color: #44200F;
+            font-size: 14px;
+        }
+
+        .setting-input:focus {
+            outline: none;
+            border-color: #F77C3B;
+            box-shadow: 0 0 0 2px rgba(247, 124, 59, 0.2);
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+
+        .checkbox-group input[type="checkbox"] {
+            margin-right: 8px;
+        }
+
+        .color-preview {
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+            border: 1px solid #44200F;
+            display: inline-block;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        .color-list {
+            max-height: 200px;
+            overflow-y: auto;
+            background: rgba(243, 236, 213, 0.1);
+            border-radius: 4px;
+            padding: 10px;
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .btn {
+            background: #F77C3B;
+            color: #693018;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.3s ease;
+            width: 100%;
+            margin: 5px 0;
+        }
+
+        .btn:hover {
+            background: #D44C2F;
+            color: #693018;
+        }
+
+        .btn-secondary {
+            background: #693018;
+            color: #F77C3B;
+        }
+
+        .btn-secondary:hover {
+            background: #B33B24;
+            color: #F77C3B;
+        }
+
+        .range-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .range-input {
+            flex: 1;
+        }
+
+        .range-value {
+            background: #693018;
+            color: #F3ECD5;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            min-width: 40px;
+            text-align: center;
+        }
+
+        h3 {
+            color: #F77C3B;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .export-controls {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(243, 236, 213, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="preview-area">
+            <canvas id="iconWall" class="icon-wall"></canvas>
+        </div>
+        
+        <div class="settings-panel" id="settingsPanel">
+            <button class="panel-toggle" id="panelToggle">◀</button>
+            
+            <h3>BHEM Icon Wall Generator</h3>
+            
+            <div class="setting-group">
+                <label class="setting-label">Output Resolution</label>
+                <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+                    <input type="number" id="outputWidth" class="setting-input" placeholder="Width (px)" value="1920" min="100" max="4000">
+                    <input type="number" id="outputHeight" class="setting-input" placeholder="Height (px)" value="1080" min="100" max="4000">
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="maintainAspectRatio">
+                    <label for="maintainAspectRatio">Maintain aspect ratio</label>
+                </div>
+            </div>
+
+            <div class="setting-group">
+                <label class="setting-label">Grid Dimensions</label>
+                <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+                    <input type="number" id="wallWidth" class="setting-input" placeholder="Columns" value="10" min="1" max="50">
+                    <input type="number" id="wallHeight" class="setting-input" placeholder="Rows" value="8" min="1" max="50">
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="forceSquare">
+                    <label for="forceSquare">Force square cells</label>
+                </div>
+            </div>
+
+            <div class="setting-group">
+                <label class="setting-label">Border Settings</label>
+                <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+                    <input type="color" id="borderColor" class="setting-input" value="#44200F" style="width: 50px;">
+                    <input type="number" id="borderWidth" class="setting-input" placeholder="Width (px)" value="1" min="0" max="10">
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="showBorder" checked>
+                    <label for="showBorder">Show borders</label>
+                </div>
+            </div>
+
+            <div class="setting-group">
+                <label class="setting-label">Display Options</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="avoidSimilarColors" checked>
+                    <label for="avoidSimilarColors">Avoid similar colors</label>
+                </div>
+            </div>
+
+            <div class="setting-group">
+                <label class="setting-label">Cell Settings</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="showCellBackground" checked>
+                    <label for="showCellBackground">Show cell backgrounds</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="randomCellColors" checked>
+                    <label for="randomCellColors">Random arrangement</label>
+                </div>
+                
+                <div id="uniformBackgroundSection" style="margin: 10px 0; display: none;">
+                    <label class="setting-label" style="font-size: 12px; margin-bottom: 5px;">Uniform Background Color</label>
+                    <div style="display: flex; gap: 10px; align-items: center;">
+                        <input type="color" id="uniformBackgroundColor" class="setting-input" value="#FFFFFF" style="width: 50px;">
+                        <span style="font-size: 11px; color: #E6AC40;">Used when cell backgrounds are hidden</span>
+                    </div>
+                </div>
+                
+                <div style="margin-bottom: 10px;">
+                    <button class="btn" id="randomCellColorsBtn" style="padding: 3px 8px; font-size: 11px; margin: 2px;">Random Colors</button>
+                    <button class="btn" id="selectAllCellColors" style="padding: 3px 8px; font-size: 11px; margin: 2px;">Select All Colors</button>
+                    <button class="btn btn-secondary" id="deselectAllCellColors" style="padding: 3px 8px; font-size: 11px; margin: 2px;">Deselect All Colors</button>
+                </div>
+                
+                <div class="checkbox-group" style="margin-bottom: 10px;">
+                    <input type="checkbox" id="randomWithCustomCellColors">
+                    <label for="randomWithCustomCellColors">Random with Custom Colors</label>
+                </div>
+                
+                <div style="margin-bottom: 10px;">
+                    <label class="setting-label" style="font-size: 12px; margin-bottom: 5px;">Custom Colors (hex codes, comma separated)</label>
+                    <input type="text" id="customCellColors" class="setting-input" placeholder="#FF0000, #00FF00, #0000FF" style="font-size: 12px;">
+                    <button class="btn" id="addCustomCellColors" style="margin-top: 5px; padding: 5px 10px; font-size: 12px;">Add Custom Colors</button>
+                </div>
+                
+                <div class="color-list" id="cellColorList">
+                    <!-- Colors will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <div class="setting-group">
+                <label class="setting-label">Icon Settings</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="showIcons" checked>
+                    <label for="showIcons">Show icons</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="randomIconColors" checked>
+                    <label for="randomIconColors">Random arrangement</label>
+                </div>
+                
+                <div class="setting-group" style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid rgba(243, 236, 213, 0.2);">
+                    <label class="setting-label">Icon Size</label>
+                    <div class="range-container">
+                        <input type="range" id="iconScale" class="range-input" min="20" max="90" value="70">
+                        <span class="range-value" id="iconScaleValue">70%</span>
+                    </div>
+                </div>
+                
+                <div class="setting-group" style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid rgba(243, 236, 213, 0.2);">
+                    <label class="setting-label">Icon Opacity</label>
+                    <div class="range-container">
+                        <input type="range" id="iconOpacity" class="range-input" min="10" max="100" value="100">
+                        <span class="range-value" id="iconOpacityValue">100%</span>
+                    </div>
+                </div>
+                
+                <div style="margin-bottom: 10px;">
+                    <button class="btn" id="randomIconColorsBtn" style="padding: 3px 8px; font-size: 11px; margin: 2px;">Random Colors</button>
+                    <button class="btn" id="selectAllIconColors" style="padding: 3px 8px; font-size: 11px; margin: 2px;">Select All Colors</button>
+                    <button class="btn btn-secondary" id="deselectAllIconColors" style="padding: 3px 8px; font-size: 11px; margin: 2px;">Deselect All Colors</button>
+                </div>
+                
+                <div class="checkbox-group" style="margin-bottom: 10px;">
+                    <input type="checkbox" id="randomWithCustomColors">
+                    <label for="randomWithCustomColors">Random with Custom Colors</label>
+                </div>
+                
+                <div style="margin-bottom: 10px;">
+                    <label class="setting-label" style="font-size: 12px; margin-bottom: 5px;">Custom Colors (hex codes, comma separated)</label>
+                    <input type="text" id="customIconColors" class="setting-input" placeholder="#FF0000, #00FF00, #0000FF" style="font-size: 12px;">
+                    <button class="btn" id="addCustomIconColors" style="margin-top: 5px; padding: 5px 10px; font-size: 12px;">Add Custom Colors</button>
+                </div>
+                <div class="color-list" id="iconColorList">
+                    <!-- Colors will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <div class="setting-group">
+                <button class="btn" id="generateWall">Generate Wall</button>
+                <button class="btn btn-secondary" id="randomizeAll">Randomize All</button>
+            </div>
+
+            <div class="export-controls">
+                <label class="setting-label">Export</label>
+                <button class="btn" id="exportPNG">Export as PNG</button>
+                <button class="btn btn-secondary" id="exportSVG">Export as SVG</button>
+            </div>
+            
+            <div class="export-controls">
+                <label class="setting-label">Settings</label>
+                <button class="btn" id="exportSettings">Export Settings</button>
+                <button class="btn btn-secondary" id="importSettings">Import Settings</button>
+                <input type="file" id="settingsFileInput" accept=".json" style="display: none;">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="debug.js"></script>
+</body>
+</html>

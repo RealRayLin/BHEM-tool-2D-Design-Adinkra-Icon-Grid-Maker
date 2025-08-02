@@ -1,0 +1,606 @@
+{
+  "total_icons": 99,
+  "created_at": "2025-07-16 08:13:28",
+  "icons": [
+    {
+      "name": "Gye Nyame",
+      "filename": "Gye_Nyame.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/gye-nyame"
+    },
+    {
+      "name": "Sankofa",
+      "filename": "Sankofa.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/sankofa"
+    },
+    {
+      "name": "Adinkrahene",
+      "filename": "Adinkrahene.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/adinkrahene"
+    },
+    {
+      "name": "Dwennimmen",
+      "filename": "Dwennimmen.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/dwennimmen"
+    },
+    {
+      "name": "Funtumfunefu Denkyemfunefu",
+      "filename": "Funtumfunefu_Denkyemfunefu.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/funtumfunefu-denkyemfunefu"
+    },
+    {
+      "name": "Nkyinkyim",
+      "filename": "Nkyinkyim.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/nkyinkyim"
+    },
+    {
+      "name": "Odo Nnyew Fie Kwan",
+      "filename": "Odo_Nnyew_Fie_Kwan.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/odo-nnyew-fie-kwan"
+    },
+    {
+      "name": "Denkyem",
+      "filename": "Denkyem.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/denkyem"
+    },
+    {
+      "name": "Nea Onnim",
+      "filename": "Nea_Onnim.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/nea-onnim"
+    },
+    {
+      "name": "Nsoromma",
+      "filename": "Nsoromma.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/nsoromma"
+    },
+    {
+      "name": "Aban",
+      "filename": "Aban.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/aban"
+    },
+    {
+      "name": "Abe Dua",
+      "filename": "Abe_Dua.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/abe-dua"
+    },
+    {
+      "name": "Abode Santann",
+      "filename": "Abode_Santann.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/abode-santann"
+    },
+    {
+      "name": "Abusua Pa",
+      "filename": "Abusua_Pa.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/abusua-pa"
+    },
+    {
+      "name": "Adwo",
+      "filename": "Adwo.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/adwo"
+    },
+    {
+      "name": "Agyin Dawuru",
+      "filename": "Agyin_Dawuru.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/agyindawuru"
+    },
+    {
+      "name": "Akoben",
+      "filename": "Akoben.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/akoben"
+    },
+    {
+      "name": "Akofena",
+      "filename": "Akofena.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/akofena"
+    },
+    {
+      "name": "Akoko Nan",
+      "filename": "Akoko_Nan.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/akoko-nan"
+    },
+    {
+      "name": "Akoma Ntoaso",
+      "filename": "Akoma_Ntoaso.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/akoma-ntoaso"
+    },
+    {
+      "name": "Akoma",
+      "filename": "Akoma.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/akoma"
+    },
+    {
+      "name": "Ananse Ntentan",
+      "filename": "Ananse_Ntentan.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/ananse-ntentan"
+    },
+    {
+      "name": "Ani Bere A Enso Gya",
+      "filename": "Ani_Bere_A_Enso_Gya.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/ani-bere-a-enso-gya"
+    },
+    {
+      "name": "Anyi Me Aye A",
+      "filename": "Anyi_Me_Aye_A.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/anyi-me-aye-a"
+    },
+    {
+      "name": "Asaawa",
+      "filename": "Asaawa.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/asaawa"
+    },
+    {
+      "name": "Asase Ye Duru",
+      "filename": "Asase_Ye_Duru.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/asase-ye-duru"
+    },
+    {
+      "name": "Asetena Pa",
+      "filename": "Asetena_Pa.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/asetena-pa"
+    },
+    {
+      "name": "Aya",
+      "filename": "Aya.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/aya"
+    },
+    {
+      "name": "Bese Saka",
+      "filename": "Bese_Saka.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/bese-saka"
+    },
+    {
+      "name": "Bi Nka Bi",
+      "filename": "Bi_Nka_Bi.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/bi-nka-bi"
+    },
+    {
+      "name": "Boa Me Na Me Mmoa Wo",
+      "filename": "Boa_Me_Na_Me_Mmoa_Wo.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/boa-me-na-me-mmoa-wo"
+    },
+    {
+      "name": "Boafo Ye Na",
+      "filename": "Boafo_Ye_Na.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/boafo-ye-na"
+    },
+    {
+      "name": "Dame Dame",
+      "filename": "Dame_Dame.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/dame-dame"
+    },
+    {
+      "name": "Dono Ntoaso",
+      "filename": "Dono_Ntoaso.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/dono-ntoaso"
+    },
+    {
+      "name": "Dono",
+      "filename": "Dono.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/dono"
+    },
+    {
+      "name": "Duafe",
+      "filename": "Duafe.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/duafe"
+    },
+    {
+      "name": "Dwantire",
+      "filename": "Dwantire.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/dwantire"
+    },
+    {
+      "name": "Eban",
+      "filename": "Eban.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/eban"
+    },
+    {
+      "name": "Epa",
+      "filename": "Epa.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/epa"
+    },
+    {
+      "name": "Ese ne Tekrema",
+      "filename": "Ese_ne_Tekrema.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/ese-ne-tekrema"
+    },
+    {
+      "name": "Esono Anantam",
+      "filename": "Esono_Anantam.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/esono-anantam"
+    },
+    {
+      "name": "Fafanto",
+      "filename": "Fafanto.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/fafanto"
+    },
+    {
+      "name": "Fawohodie",
+      "filename": "Fawohodie.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/fawohodie"
+    },
+    {
+      "name": "Fihankra",
+      "filename": "Fihankra.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/fihankra"
+    },
+    {
+      "name": "Fofo",
+      "filename": "Fofo.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/fofo"
+    },
+    {
+      "name": "Gyawu Atiko",
+      "filename": "Gyawu_Atiko.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/gyawu-atiko"
+    },
+    {
+      "name": "Hwehwemudua",
+      "filename": "Hwehwemudua.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/hwehwemudua"
+    },
+    {
+      "name": "Hye Wo Nhye",
+      "filename": "Hye_Wo_Nhye.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/hye-wo-nhye"
+    },
+    {
+      "name": "Kete Pa",
+      "filename": "Kete_Pa.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/kete-pa"
+    },
+    {
+      "name": "Kokuromotie",
+      "filename": "Kokuromotie.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/kokuromotie"
+    },
+    {
+      "name": "Kramo Bone Amma Yeanhu Kramo Pa",
+      "filename": "Kramo_Bone_Amma_Yeanhu_Kramo_Pa.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/kramo-bone-amma-yeanhu-kramo-pa"
+    },
+    {
+      "name": "Krapa",
+      "filename": "Krapa.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/krapa-musuyidee"
+    },
+    {
+      "name": "Kuronti ne Akwamu",
+      "filename": "Kuronti_ne_Akwamu.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/kuronti-ne-akwamu"
+    },
+    {
+      "name": "Kwatakye Atiko",
+      "filename": "Kwatakye_Atiko.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/kwatakye-atiko"
+    },
+    {
+      "name": "Kyemfere",
+      "filename": "Kyemfere.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/kyemfere"
+    },
+    {
+      "name": "Mako",
+      "filename": "Mako.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/mako"
+    },
+    {
+      "name": "Mate Masie",
+      "filename": "Mate_Masie.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/mate-masie"
+    },
+    {
+      "name": "Mekyea Wo",
+      "filename": "Mekyea_Wo.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/mekyea-wo"
+    },
+    {
+      "name": "Menso Wo Kenten",
+      "filename": "Menso_Wo_Kenten.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/menso-wo-kenten"
+    },
+    {
+      "name": "Mframadan",
+      "filename": "Mframadan.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/mframadan"
+    },
+    {
+      "name": "Mmeramubere",
+      "filename": "Mmeramubere.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/mmeramubere"
+    },
+    {
+      "name": "Mmeramutene",
+      "filename": "Mmeramutene.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/mmeramutene"
+    },
+    {
+      "name": "Mmere Dane",
+      "filename": "Mmere_Dane.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/mmere-dane"
+    },
+    {
+      "name": "Mpatapo",
+      "filename": "Mpatapo.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/mpatapo"
+    },
+    {
+      "name": "Mpuannum",
+      "filename": "Mpuannum.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/mpuannum"
+    },
+    {
+      "name": "Nea Ope Se Obedi Hene",
+      "filename": "Nea_Ope_Se_Obedi_Hene.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/nea-ope-se-obedi-hene"
+    },
+    {
+      "name": "Nkonsonkonson",
+      "filename": "Nkonsonkonson.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/nkonsonkonson"
+    },
+    {
+      "name": "Nkotimsefo Mpua",
+      "filename": "Nkotimsefo_Mpua.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/nkotimsefo-mpua"
+    },
+    {
+      "name": "Nkrabea",
+      "filename": "Nkrabea.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/nkrabea"
+    },
+    {
+      "name": "Nkyemu",
+      "filename": "Nkyemu.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/nkyemu"
+    },
+    {
+      "name": "Nnamfo Pa Baanu",
+      "filename": "Nnamfo_Pa_Baanu.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/nnamfo-pa-baanu"
+    },
+    {
+      "name": "Nsaa",
+      "filename": "Nsaa.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/nsaa"
+    },
+    {
+      "name": "Nserewa",
+      "filename": "Nserewa.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/nserewa"
+    },
+    {
+      "name": "Nteasee",
+      "filename": "Nteasee.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/nteasee"
+    },
+    {
+      "name": "Nyame Baatanpa",
+      "filename": "Nyame_Baatanpa.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/nyame-baatanpa"
+    },
+    {
+      "name": "Nyame Biribi Wo Soro",
+      "filename": "Nyame_Biribi_Wo_Soro.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/nyame-biribi-wo-soro"
+    },
+    {
+      "name": "Nyame Dua",
+      "filename": "Nyame_Dua.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/nyame-dua"
+    },
+    {
+      "name": "Nyame Nti",
+      "filename": "Nyame_Nti.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/nyame-nti"
+    },
+    {
+      "name": "Nyame Nwu Na Mawu",
+      "filename": "Nyame_Nwu_Na_Mawu.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/nyame-nwu-na-mawu"
+    },
+    {
+      "name": "Nyansapo",
+      "filename": "Nyansapo.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/nyansapo"
+    },
+    {
+      "name": "Obohemaa",
+      "filename": "Obohemaa.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/obohemaa"
+    },
+    {
+      "name": "Ohene Aniwa",
+      "filename": "Ohene_Aniwa.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/ohene-aniwa"
+    },
+    {
+      "name": "Okodee Mmowere",
+      "filename": "Okodee_Mmowere.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/okodee-mmowere"
+    },
+    {
+      "name": "Okuafo Pa",
+      "filename": "Okuafo_Pa.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/okuafo-pa"
+    },
+    {
+      "name": "Osram ne Nsoromma",
+      "filename": "Osram_ne_Nsoromma.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/osram-ne-nsoromma"
+    },
+    {
+      "name": "Owo Foro Adobe",
+      "filename": "Owo_Foro_Adobe.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/owo-foro-adobe"
+    },
+    {
+      "name": "Owuo Atwedee",
+      "filename": "Owuo_Atwedee.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/owuo-atwedee"
+    },
+    {
+      "name": "Pempamsie",
+      "filename": "Pempamsie.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/pempamsie"
+    },
+    {
+      "name": "Sepow",
+      "filename": "Sepow.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/sepow"
+    },
+    {
+      "name": "Som Onyankopon",
+      "filename": "Som_Onyankopon.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/som-onyankopon"
+    },
+    {
+      "name": "Sunsum",
+      "filename": "Sunsum.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/sunsum"
+    },
+    {
+      "name": "Tabono",
+      "filename": "Tabono.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/tabono"
+    },
+    {
+      "name": "Tamfo Bebre",
+      "filename": "Tamfo_Bebre.png",
+      "source": "adinkrasymbols.org",
+      "url": "https://www.adinkrasymbols.org/symbols/tamfo-bebre"
+    },
+    {
+      "name": "Wawa Aba",
+      "filename": "Wawa_Aba.png",
+      "source": "generated",
+      "url": null,
+      "meaning": "Seed of the Wawa tree - hardiness and perseverance"
+    },
+    {
+      "name": "Kintinkantan",
+      "filename": "Kintinkantan.png",
+      "source": "generated",
+      "url": null,
+      "meaning": "Puffed up extravagance - warning against arrogance"
+    },
+    {
+      "name": "Mmere Dane",
+      "filename": "Mmere_Dane.png",
+      "source": "generated",
+      "url": null,
+      "meaning": "Time changes - dynamics of life"
+    },
+    {
+      "name": "Sesa Wo Suban",
+      "filename": "Sesa_Wo_Suban.png",
+      "source": "generated",
+      "url": null,
+      "meaning": "Change your character - transformation"
+    },
+    {
+      "name": "Tumi Te Se Kosua",
+      "filename": "Tumi_Te_Se_Kosua.png",
+      "source": "generated",
+      "url": null,
+      "meaning": "Power is like an egg - fragility of power"
+    },
+    {
+      "name": "Kra",
+      "filename": "Kra.png",
+      "source": "generated",
+      "url": null,
+      "meaning": "Soul - spiritual essence"
+    }
+  ]
+}
